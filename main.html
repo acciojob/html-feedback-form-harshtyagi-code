@@ -10,6 +10,18 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form action="/action_page.php" method="post">
+  <label for="Name">Name</label><br>
+  <input type="text" id="name" name="Name" minlength="3", maxlength="50" required>
+  <label for="Portfolio">Portfolio</label><br>
+  <input type="url" id="portfolio" name="portfolio" required>
+  <label for="Favorite Color">Favorite Color</label><br>
+  <input type="color" id="favColor" name="FavoriteColor">
+  <label for="Likeness">Likeness</label><br>
+  <input type="range" id="likeness" name="Likeness" min="1", max="100">
+		<input type="submit" value="Submit">
+</form>
+
 
 </body>
 
